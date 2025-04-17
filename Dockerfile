@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-alpine
 
-EXPOSE 8083
+EXPOSE 8087
 
 COPY target/devops-integration.jar  devops-integration.jar
 
